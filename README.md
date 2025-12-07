@@ -2,7 +2,7 @@
 
 > your nodejs application is not using enough RAM? say less.
 
-## usage
+### usage
 
 commonjs:
 
@@ -53,7 +53,7 @@ import Yummers from "@bubblxs/yummers"
 /* ... */
 ```
 
-## class methods
+### class methods
 
 ```js
 
