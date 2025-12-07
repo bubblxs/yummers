@@ -1,0 +1,23 @@
+{
+  "name": "@bubblxs/yummers",
+  "version": "1.0.0",
+  "description": "keep one thing in your mind: unused memory is wasted memory.",
+  "type": "commonjs",
+  "main": "./lib/index.js",
+  "repository": {
+    "url": "https://github.com/bubblxs/yummers.git"
+  },
+  "exports": {
+    "require": "./lib/index.js",
+    "import": "./lib/index.mjs"
+  },
+  "imports": {
+    "#yummers": "./bin/yummers.node",
+    "#lib-cjs": "./lib/index.js",
+    "#lib-es6": "./lib/index.mjs"
+  },
+  "types": "./lib/types.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
