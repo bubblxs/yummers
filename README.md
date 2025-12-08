@@ -23,7 +23,7 @@ y.flush();
 console.log(y.memsize()) // => 0
 ```
 
-es6:
+module:
 
 ```js
 import Yummers from "#lib-es6";
